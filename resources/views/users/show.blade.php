@@ -28,6 +28,7 @@
 
             {{-- 用户发布的内容 --}}
             <div class="card ">
+                <img class="card-img-top" src="{{ $user->avatar }}" alt="{{ $user->name }}">
                 <div class="card-body">
                     暂无数据 ~_~
                 </div>
